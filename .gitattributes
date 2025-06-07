@@ -1,0 +1,9 @@
+*.csharp linguist-detectable=false
+*.java linguist-detectable=true
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+*.xml linguist-detectable=false
+*.robot linguist-detectable=false
+*.selenium linguist-detectable=true
+*.testng linguist-detectable=true
+*.html linguist-detectable=true
