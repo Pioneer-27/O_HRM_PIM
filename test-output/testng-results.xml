@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-07T20:32:36 IST" name="LoginTestSuite" finished-at="2025-06-07T20:35:14 IST" duration-ms="157354">
+    <groups>
+      <group name="UI">
+        <method signature="LoginTests.testVerifyUIElements()[pri:1, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testVerifyUIElements" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testEmptyUsername()[pri:2, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testEmptyUsername" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testEmptyUsernameAndPassword()[pri:3, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testEmptyUsernameAndPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testEmptyPassword()[pri:4, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testEmptyPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testInvalidUsername()[pri:5, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testInvalidUsername" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testInvalidPassword()[pri:6, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testInvalidPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testInvalidUsernameAndPassword()[pri:7, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testInvalidUsernameAndPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testCaseSensitiveLogin()[pri:8, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testCaseSensitiveLogin" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testLogoutAndCopyUrlValidation()[pri:9, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testLogoutAndCopyUrlValidation" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testForgotPasswordLinkFlow()[pri:10, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testForgotPasswordLinkFlow" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testValidLogin()[pri:11, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testValidLogin" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testPIMNavigation()[pri:12, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testPIMNavigation" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testAddEmployeeNavigation()[pri:13, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testAddEmployeeNavigation" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testAddEmployeeDetails()[pri:14, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testAddEmployeeDetails" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testPreviewEmployeeDetails()[pri:15, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testPreviewEmployeeDetails" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testfinalLogout()[pri:16, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testfinalLogout" class="Orange_HRM.oHRM.tests.LoginTests"/>
+      </group> <!-- UI -->
+      <group name="Dashboard">
+        <method signature="LoginTests.testPIMNavigation()[pri:12, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testPIMNavigation" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testAddEmployeeNavigation()[pri:13, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testAddEmployeeNavigation" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testAddEmployeeDetails()[pri:14, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testAddEmployeeDetails" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testPreviewEmployeeDetails()[pri:15, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testPreviewEmployeeDetails" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testfinalLogout()[pri:16, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testfinalLogout" class="Orange_HRM.oHRM.tests.LoginTests"/>
+      </group> <!-- Dashboard -->
+      <group name="Login">
+        <method signature="LoginTests.testVerifyUIElements()[pri:1, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testVerifyUIElements" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testEmptyUsername()[pri:2, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testEmptyUsername" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testEmptyUsernameAndPassword()[pri:3, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testEmptyUsernameAndPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testEmptyPassword()[pri:4, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testEmptyPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testInvalidUsername()[pri:5, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testInvalidUsername" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testInvalidPassword()[pri:6, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testInvalidPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testInvalidUsernameAndPassword()[pri:7, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testInvalidUsernameAndPassword" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testCaseSensitiveLogin()[pri:8, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testCaseSensitiveLogin" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testLogoutAndCopyUrlValidation()[pri:9, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testLogoutAndCopyUrlValidation" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testForgotPasswordLinkFlow()[pri:10, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testForgotPasswordLinkFlow" class="Orange_HRM.oHRM.tests.LoginTests"/>
+        <method signature="LoginTests.testValidLogin()[pri:11, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" name="testValidLogin" class="Orange_HRM.oHRM.tests.LoginTests"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2025-06-07T20:32:36 IST" name="LoginTests" finished-at="2025-06-07T20:35:14 IST" duration-ms="157354">
+      <class name="Orange_HRM.oHRM.tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:26 IST" name="setUp" finished-at="2025-06-07T20:32:36 IST" duration-ms="10323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testVerifyUIElements()[pri:1, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:36 IST" name="testVerifyUIElements" finished-at="2025-06-07T20:32:36 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyUIElements -->
+        <test-method signature="testEmptyUsername()[pri:2, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:36 IST" name="testEmptyUsername" finished-at="2025-06-07T20:32:40 IST" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsername -->
+        <test-method signature="testEmptyUsernameAndPassword()[pri:3, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:40 IST" name="testEmptyUsernameAndPassword" finished-at="2025-06-07T20:32:40 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyUsernameAndPassword -->
+        <test-method signature="testEmptyPassword()[pri:4, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:40 IST" name="testEmptyPassword" finished-at="2025-06-07T20:32:41 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyPassword -->
+        <test-method signature="testInvalidUsername()[pri:5, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:41 IST" name="testInvalidUsername" finished-at="2025-06-07T20:32:42 IST" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsername -->
+        <test-method signature="testInvalidPassword()[pri:6, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:42 IST" name="testInvalidPassword" finished-at="2025-06-07T20:32:44 IST" duration-ms="1734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidPassword -->
+        <test-method signature="testInvalidUsernameAndPassword()[pri:7, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:44 IST" name="testInvalidUsernameAndPassword" finished-at="2025-06-07T20:32:46 IST" duration-ms="1959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUsernameAndPassword -->
+        <test-method signature="testCaseSensitiveLogin()[pri:8, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:46 IST" name="testCaseSensitiveLogin" finished-at="2025-06-07T20:32:50 IST" duration-ms="4005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseSensitiveLogin -->
+        <test-method signature="testLogoutAndCopyUrlValidation()[pri:9, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:32:50 IST" name="testLogoutAndCopyUrlValidation" finished-at="2025-06-07T20:33:03 IST" duration-ms="12996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutAndCopyUrlValidation -->
+        <test-method signature="testForgotPasswordLinkFlow()[pri:10, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:33:03 IST" name="testForgotPasswordLinkFlow" finished-at="2025-06-07T20:33:12 IST" duration-ms="9240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPasswordLinkFlow -->
+        <test-method signature="testValidLogin()[pri:11, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:33:12 IST" name="testValidLogin" finished-at="2025-06-07T20:33:19 IST" duration-ms="7188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method signature="testPIMNavigation()[pri:12, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:33:19 IST" name="testPIMNavigation" finished-at="2025-06-07T20:33:19 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMNavigation -->
+        <test-method signature="testAddEmployeeNavigation()[pri:13, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:33:19 IST" name="testAddEmployeeNavigation" finished-at="2025-06-07T20:33:24 IST" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployeeNavigation -->
+        <test-method signature="testAddEmployeeDetails()[pri:14, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:33:24 IST" name="testAddEmployeeDetails" finished-at="2025-06-07T20:34:17 IST" duration-ms="52797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmployeeDetails -->
+        <test-method signature="testPreviewEmployeeDetails()[pri:15, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:34:17 IST" name="testPreviewEmployeeDetails" finished-at="2025-06-07T20:35:09 IST" duration-ms="51823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreviewEmployeeDetails -->
+        <test-method signature="testfinalLogout()[pri:16, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:35:09 IST" name="testfinalLogout" finished-at="2025-06-07T20:35:14 IST" duration-ms="5233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfinalLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Orange_HRM.oHRM.tests.LoginTests@229f66ed]" started-at="2025-06-07T20:35:14 IST" name="tearDown" finished-at="2025-06-07T20:35:15 IST" duration-ms="846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Orange_HRM.oHRM.tests.LoginTests -->
+    </test> <!-- LoginTests -->
+  </suite> <!-- LoginTestSuite -->
+</testng-results>
