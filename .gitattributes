@@ -1,7 +1,6 @@
 *.java linguist-detectable=true
-*.selenium linguist-detectable=true
-*.testng linguist-detectable=true
-*.robot linguist-detectable=false
-*.js linguist-detectable=false
-*.xml linguist-detectable=false
+*.java linguist-language=Java
 *.html linguist-detectable=true
+*.js linguist-detectable=false
+*.xml linguist-detectable=true
+*.robot linguist-detectable=false
